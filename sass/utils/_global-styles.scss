@@ -1,0 +1,74 @@
+/* * {	outline: 2px solid tomato;} */
+
+body {
+    font-family: 'Roboto', sans-serif;    
+    background-color: #F5F7FA;
+    min-width: 320px;
+}
+
+/* глобальный сброс margin, padding */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* удаляю точки списков */
+.list {
+    list-style: none;
+}
+
+/* удаляю подчеркивание ссылок */
+.link {
+    text-decoration: none;
+}
+
+// что то скрыть
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 480px;
+    padding: 0 20px;
+
+    @include tablet {
+        max-width: 768px;
+    }
+    
+    @include desktop {
+        max-width: 1280px;
+    }
+}
+
+.wrap {
+    position: relative;
+    display: grid;
+    @include tablet {
+        display: flex;
+    }
+}
+
+.section {
+    margin-bottom: 40px;
+}

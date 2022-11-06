@@ -1,0 +1,174 @@
+.sidebar {
+    background-color: #1E2939;
+    padding: 40px 0;
+        
+    @include tablet {
+        width: 600px;
+    }
+}
+
+.sidebar__photo {
+    border-radius: 50%;
+}
+
+/* contacts style */
+.contacts {   
+    @include tablet {
+        margin-left: 20px;
+    }
+
+    @include desktop {
+        margin-left: 40px;
+    }
+}
+
+.sidebar__title {    
+    font-size: 22px;
+    line-height: calc(27/22);
+    color: #fff;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
+}
+
+.contacts__list {
+    @media screen and (max-width: 767px) {
+        display: grid;
+        justify-items: center;
+    }
+}
+
+.contacts__item {
+    margin-bottom: 10px;
+}
+
+.contacts__link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: calc(24/14);
+    color: rgba(255, 255, 255, .6);
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+    color: #2196f3;
+}
+
+.contacts__icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+
+    @media screen and (max-width: 767px) {
+        justify-content: center;
+    }
+}
+
+.social_link {
+    display: flex;
+    border-radius: 50%;
+    fill: rgba(255, 255, 255, .6);
+    background-color: transparent;
+}
+
+.social_link:hover,
+.social_link:focus {
+    fill: #2196f3;
+}
+
+/* tech-skills style */
+.tech-skills {
+    @include tablet {
+        margin-left: 20px;
+    }
+
+    @include desktop {
+        margin-left: 40px;
+    }
+}
+
+.tech-skills__list {
+    margin-left: 15px;
+
+    @media screen and (max-width: 767px) {
+        list-style: none;
+        text-align: center;
+    }
+}
+
+.tech-skills__item {
+    color: #2196f3;
+}
+
+.tech-skills__text {
+    font-size: 14px;
+    line-height: calc(24/14);
+    color: rgba(255, 255, 255, .6);
+}
+
+/* soft-skills style */
+.soft-skills {
+    @include tablet {
+        margin-left: 20px;
+    }
+
+    @include desktop {
+        margin-left: 40px;
+    }
+}
+
+.soft-skills__list {
+    margin-left: 15px;
+    
+    @media screen and (max-width: 767px) {
+        list-style: none;
+        text-align: center;
+    }
+}
+
+.soft-skills__item {
+    color: #2196f3;
+}
+
+.soft-skills__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, .6);
+}
+
+/* languages style */
+.languages {
+    @include tablet {
+        margin-left: 20px;
+    }
+
+    @include desktop {
+        margin-left: 40px;
+    }
+}
+
+.languages__list {
+    margin-left: 15px;
+    
+    @media screen and (max-width: 767px) {
+        list-style: none;
+        text-align: center;
+    }
+}
+
+.languages__item {
+    color: #2196f3;
+}
+
+.languages__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, .6);
+}

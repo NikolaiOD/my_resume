@@ -1,0 +1,97 @@
+/* resume styles */
+.resume {
+    background-color: #FFF;
+    padding: 40px 0;
+
+    @include tablet {
+        padding: 40px;
+        box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    @include desktop {
+        padding: 40px 100px;
+    }
+}
+
+.main__title {
+    font-size: 22px;
+    line-height: calc(27/22);
+    color: #000;
+    margin-bottom: 20px;
+}
+
+/* about styles */
+.about__position {
+    font-size: 14px;
+    line-height: calc(17/14);
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.about__name {
+    font-size: 45px;
+    line-height: calc(55/45);
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.about__description {
+    font-size: 14px;
+    line-height: calc(24/14);
+    color: #595959;
+}
+
+/* project styles */
+.projects__description {
+    font-size: 14px;
+    line-height: calc(24/14);
+    color: #595959;
+}
+
+.projects__link:hover,
+.projects__link:focus {
+    color: #2196f3;
+}
+
+/* work styles */
+.work__position {
+    font-size: 16px;
+    line-height: calc(20/16);
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.work__organization {
+    font-size: 16px;
+    line-height: calc(20/16);
+    color: #2196f3;
+}
+
+.work__period {
+    font-size: 12px;
+    line-height: calc(15/12);
+    color: #595959;
+    margin-bottom: 10px;
+}
+
+/* education styles */
+.education__university {
+    font-size: 16px;
+    line-height: calc(20/16);
+    color: #2196f3;
+    margin-bottom: 10px;
+}
+
+.education__management {
+    font-size: 14px;
+    line-height: calc(17/14);
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.education__period {
+    font-size: 12px;
+    line-height: calc(15/12);
+    color: #595959;
+    margin-bottom: 10px;
+}
