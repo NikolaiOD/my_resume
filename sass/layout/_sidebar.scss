@@ -71,15 +71,15 @@
     }
 }
 
-.social_link {
+.social__link {
     display: flex;
     border-radius: 50%;
     fill: rgba(255, 255, 255, .6);
     background-color: transparent;
 }
 
-.social_link:hover,
-.social_link:focus {
+.social__link:hover,
+.social__link:focus {
     fill: #2196f3;
 }
 

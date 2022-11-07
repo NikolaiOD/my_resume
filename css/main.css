@@ -49,7 +49,7 @@ img {
 .container {
   margin: 0 auto;
   max-width: 480px;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -218,7 +218,7 @@ img {
   }
 }
 
-.social_link {
+.social__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -227,8 +227,8 @@ img {
   background-color: transparent;
 }
 
-.social_link:hover,
-.social_link:focus {
+.social__link:hover,
+.social__link:focus {
   fill: #2196f3;
 }
 
@@ -346,7 +346,7 @@ img {
   }
 }
 
-.main__title {
+.resume__title {
   font-size: 22px;
   line-height: 1.2272727273;
   color: #000;
@@ -375,7 +375,7 @@ img {
 }
 
 /* project styles */
-.projects__description {
+.projects {
   font-size: 14px;
   line-height: 1.7142857143;
   color: #595959;
